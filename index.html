@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHero-tube</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <nav class="flex justify-between items-center p-5 md:p-12">
+            <div class="logo cursor-pointer"><img src="img/Logo.png" alt=""></div>
+            <button id="sort-by-view" class="btn font-medium text-[18px] text-[#252525]">Sort by view</button>
+            <button class="btn bg-[#FF1F3D] font-medium text-[18px] text-white">Blog</button>
+        </nav>
+        <nav id="cetagoryBtn" class="flex justify-center items-center gap-2 md:gap-6">
+        </nav>
+        <div id="error-mess" class="mt-20 flex flex-col justify-center items-center hidden"><img src="img/Icon.png" alt="">
+        <h2 class="mt-6 text-4xl">Opps No Data Avalavel</h2></div>
+    </header>
+    <main>
+        <div id="card-area" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-10 px-12 gap-6">
+           
+        </div>
+    </main>
+    <script src="js/coustom.js"></script>
+</body>
+</html>
